@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+::selection {
+  background-color: #edac62;
+  color: white;
+}
+header {
+  background: url(../image/1.png);
+  background-size: cover;
+  height: 100vh;
+}
+header .bg-light {
+  opacity: 0.7 !important;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.navbar ul {
+  text-align: center;
+}
+.page1content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: calc(100vh - 86px);
+}
+/* @media (min-width: 1000px) {
+  .page1content {
+    height: calc(100vh - 86px);
+  }
+} */
+@media (max-width: 540px) {
+  /* .page1content {
+    height: calc(100vh - 86px);
+  } */
+  .page1content img {
+    max-width: 250px;
+  }
+}
+@media (max-width: 540px) and (min-width: 535px) {
+  .im {
+    left: 25px !important;
+    bottom: -35px !important;
+  }
+}
+.page1content button {
+  color: #edac62;
+  font-size: 20px;
+}
+.page1content button:hover {
+  background-color: #edac62;
+  color: white;
+}
+.ss {
+  border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -webkit-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -moz-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -ms-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -o-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+}
+
+.im {
+  bottom: 0;
+  left: -30px;
+}
+.about .container .row svg {
+  height: 100px;
+  color: brown;
+  position: relative;
+}
+.about .container .row .icon {
+  /* background-color: rgb(249, 227, 198); */
+  margin: auto;
+  border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  width: fit-content;
+  padding: 10px;
+}
+.about .container .row div:nth-child(1) > .icon {
+  background-color: #d0eafc;
+}
+.about .container .row div:nth-child(2) > .icon {
+  background-color: #f9e2c8;
+}
+.about .container .row div:nth-child(3) > .icon {
+  background-color: #e9cbfa;
+}
+/* menu */
+.menu .zz .aa {
+  right: 20px;
+  bottom: 0;
+}
+.menu .zz .bb {
+  right: 50px;
+  top: 0;
+}
+.menu .zz .cc {
+  left: 50px;
+  top: 0;
+}
+/* >>>>>>>>>>>>>>> */
+.aaa,
+.bbb,
+.ccc {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -webkit-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -moz-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -ms-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -o-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+}
+.aaa {
+  background-color: #f4cfa4;
+  left: 0;
+}
+.bbb {
+  background-color: #b1ddf9;
+  right: 0;
+  z-index: -5555;
+}
+.ccc {
+  background-color: #dba9f6;
+  bottom: 0;
+}
+/* Store */
+.store .row .box {
+  height: 350px;
+  border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -webkit-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -moz-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -ms-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  -o-border-radius: 64% 36% 26% 74% / 67% 55% 45% 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.store .row div:nth-child(1) .box {
+  background-color: #d498f5;
+}
+.store .row div:nth-child(2) .box {
+  background-color: #f2c592;
+}
+.store .row div:nth-child(3) .box {
+  background-color: #a1d6f8;
+}
+/* form */
+form .form-control:focus {
+  border: #edac62 !important;
+  box-shadow: 0 0 0 0.25rem rgb(237, 172, 98, 0.25) !important;
+}
+form .form-control {
+  caret-color: #edac62;
+}
+/* ::placeholder {
+  color: #edac62 !important;
+} */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px #edac62;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #edac62;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ae7e47;
+}
+.navbar-toggler:focus {
+  box-shadow: 0px 0px 10px 4px #edac62 !important;
+}
+.navbar-nav .nav-link:hover {
+  color: #edac62 !important;
+}
+.ax {
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  display: none;
+}
